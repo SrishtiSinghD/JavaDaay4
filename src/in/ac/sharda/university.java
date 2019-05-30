@@ -17,6 +17,6 @@ public class university {
 	    	.forEach(                                                // for loop// for(Student s : students)// use only 1 cpu core so is slow
 	    			s -> System.out.println(
 	    				s.getId()));
-	    }// sequence will be printed randomly
+	    }// sequence will be printed randomly//modify
 	
 	}
