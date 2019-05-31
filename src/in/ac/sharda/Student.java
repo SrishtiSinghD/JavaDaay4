@@ -1,6 +1,6 @@
 package in.ac.sharda;
 
-public class Student {
+public class Student implements IresultarrivedListener {
 	
 	private final int rollNumber;
 	private final String name;
@@ -62,5 +62,16 @@ public class Student {
 		return false;
 		
 	}
+
+@Override
+public void resultArrived() {
+	// TODO Auto-generated method stub
+	System.out.println("IMPORTANT: Result has arrived, Click on the link below to see it !!!"+name);
+	
+}
+	
+	//public void resultArrived() {
+		//System.out.println("Result Came In");//its a bug
+	//}
 
 }
